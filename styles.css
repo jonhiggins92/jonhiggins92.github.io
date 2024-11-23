@@ -9,7 +9,7 @@ html, body {
 #content {
     flex: 1; /* Ensures that the content area takes up the space it needs, pushing the footer down */
     padding: 20px;
-}
+} /*woops*/
 
 header, footer {
     background-color: #333;
