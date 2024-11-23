@@ -1,3 +1,25 @@
+html, body {
+    height: 100%;  /* Make sure the page height is at least the full height of the viewport */
+    margin: 0;     /* Remove default margin */
+}
+
+#content {
+    min-height: 100%;    /* Minimum height to be the full viewport height */
+    display: flex;       /* Use flexbox to facilitate the footer sticking */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+footer {
+    margin-top: auto;    /* Pushes the footer to the bottom */
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Other styles remain unchanged */
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
